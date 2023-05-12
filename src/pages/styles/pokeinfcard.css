@@ -1,0 +1,128 @@
+
+.pokeinfo--{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, auto);
+    place-items: center;
+    width: 100%;
+}
+.pokecard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    overflow: hidden;
+}
+.pokecard--header{
+    width: 100%;
+    height: 170px;
+    margin-top: 8em;
+    border: 2px  solid black;
+    border-bottom: 0;
+}
+.pokecard--img{
+    width: 30%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pokecard--seccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7em;
+    border: 2px solid black;
+    border-top: 0;
+    margin-top: -2em;
+    width: 100%;
+
+}
+.pokecard--id{
+    width: 10%;
+    border: 1px solid black;
+    margin-top: 20px;
+    text-align: center;
+}
+.pokecard--name{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.pokecard--infopoke{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 3em;
+}
+.pokecard--item-value{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.pokecard--abilityandtype{
+    display: flex;
+    gap: 7em;
+}
+.pokecard--main-type{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.pokecard--name-type{
+    font-size: 20px;
+}
+.pokecard--type{
+    display: flex;
+}
+.pokecard--item-type{
+    padding: 2px;
+    border: 1px solid black;
+    margin: 0 5px 0 5px;
+    text-transform: capitalize;
+}
+.pokecard--main-ability{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    text-transform: capitalize;
+}
+.pokecard--name-ability{
+    font-size: 20px;
+}
+.pokecard--ability{
+   display: flex;
+}
+.pokecard---item--type-ability{
+    display: flex;
+    margin: 0 5px 0 5px;
+    border: 1px solid black;
+}
+.pokecard--state{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 1em;
+}
+.pokecard--item-state{
+    display: flex;
+    justify-content: space-between;
+    gap: 20em;
+}
+.pokecard--moviments{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    box-shadow: -3px -5px rgba(0, 0, 0, 0.349), -1em 0 0.4em olive;
+}
+.pokecard--moviment--item{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1em;
+}
+.pokecard--item--moviment{
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 2px 2px black;
+    text-transform: capitalize;
+}

@@ -1,0 +1,113 @@
+.poke--containe{
+    width: 250px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.img--poke{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3px;
+
+}
+.poke--info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -60px;
+  padding-top: 60px;
+  background-color: white;
+  padding-bottom: 5px;
+}
+.poke--name{
+   text-align: center;
+   text-transform: capitalize;
+}
+.poke--info--type{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.3em;
+    text-transform: capitalize;
+   
+}
+.type--pokemon{
+    font-weight: 100;
+    color: rgba(128, 128, 128, 0.575);
+}
+hr{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+.poke--state{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 0.5em;
+}
+.pokemon--value{
+    text-transform: capitalize;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+.state--span{
+    font-weight: 200;
+    text-transform: capitalize;
+    color: gray;
+    
+}
+.bg-grass {
+    background-image:  linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+.bg-fire{
+    background-image:  linear-gradient(176.37deg, #F96D6F -32.26%, hsl(16, 77%, 52%) 22.55%, #E8AE1B 125.72%);
+}
+.bg-water{
+    background-image: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+.bg-bug{
+    background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+
+}
+.bg-normal{
+    background-image:linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+    ;
+}
+.color-grass{
+   color: #ABDAC6; 
+}
+.color-fire{
+   color: hsl(16, 77%, 52%);
+}
+
+.color-water{
+    color: #1479FB;
+}
+.color-bug{
+    color: #728881  ;
+}
+.color-normal{
+    color:  #BC6B7C;
+}
+
+.bg-grass.poke--containe {
+    border:0.5em solid #7EC6C5;
+ }
+ .bg-fire.poke--containe {
+    border:0.5em solid hsl(16, 77%, 52%);
+ }
+ .bg-water.poke--containe {
+    border:0.5em solid #1479FB ;
+ }
+ .bg-bug.poke--containe {
+    border:0.5em solid  #728881;
+ }
+ .bg-normal.poke--containe {
+    border:0.5em solid  #BC6B7C;
+ }

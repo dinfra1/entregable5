@@ -1,0 +1,12 @@
+.form--home{
+    padding: 2em;
+}
+.input--home{
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+.buttom--home{
+    padding: 10px 15px;
+    border-radius: 0 10px 10px 0;
+}
